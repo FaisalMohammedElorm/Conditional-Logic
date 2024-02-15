@@ -1,7 +1,4 @@
-const number = 15;
-if(number % 2 === 0){
-  console.log("There is no remainder");
-}
-else {
-  console.log("There is remainder");
-}
+
+const number = 12;
+const isNumber = number > 12 ? "Number is greater than 12" : "Number is less than 12";
+console.log(isNumber);
