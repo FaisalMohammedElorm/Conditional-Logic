@@ -1,4 +1,9 @@
 
-const number = 12;
-const isNumber = number > 12 ? "Number is greater than 12" : "Number is less than 12";
-console.log(isNumber);
+function checkForLeapYear(number){
+  if(number % 4 === 0 && number % 100 !== 0){
+    return true;
+  }
+  return false;
+}
+const isLeap = checkForLeapYear(2024);
+console.log(isLeap);
